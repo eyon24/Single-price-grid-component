@@ -1,0 +1,172 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  width: 80%;
+  font-size: 16px;
+  box-shadow: 0px 0px 20px 5px #cfd8dd;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.join-container,
+.subscribe-container,
+.why-container {
+  padding: 20px;
+}
+
+.join-container {
+  background-color: #ffffff;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.join-container h2 {
+  font-weight: 700;
+  color: #4fafa4;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.join-container h3 {
+  font-weight: 700;
+  color: #c0df34;
+  margin-bottom: 20px;
+}
+
+.join-container p {
+  font-size: 14px;
+  color: #9aa2a7;
+  line-height: 25px;
+}
+
+.subscribe-container {
+  background-color: #2ab2af;
+  color: white;
+}
+
+.subscribe-container h2 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.subscribe-container span {
+  font-weight: 700;
+  font-size: 32px;
+  margin-right: 10px;
+  color: white;
+}
+
+.subscribe-container div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #dfdfdf;
+}
+
+.subscribe-container p {
+  margin-bottom: 30px;
+}
+
+.subscribe-container button {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: inherit;
+  color: #ffffff;
+  background-color: #c0df34;
+}
+
+.subscribe-container button:hover {
+  cursor: pointer;
+  color: #c0df34;
+  background-color: #ffffff;
+}
+
+.subscribe-container button:active {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #f5b46a;
+}
+
+.why-container {
+  background-color: #4abebd;
+  border-radius: 0 0 0.5rem 0.5rem;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.why-container h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.why-container ul {
+  font-size: 14px;
+  color: #dfdfdf;
+}
+
+.why-container li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.why-container li:last-child {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 950px) {
+  .container {
+    width: 50%;
+  }
+
+  .row-container {
+    flex-direction: row;
+  }
+
+  .join-container {
+    padding: 30px;
+  }
+
+  .subscribe-container {
+    padding: 30px;
+  }
+  .why-container {
+    padding: 30px;
+  }
+
+  .join-container h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .join-container h3 {
+    font-size: 19px;
+  }
+
+  .join-container p {
+    font-size: 17px;
+  }
+
+  .join-container p:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .row-container .subscribe-container {
+    flex: 1;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .row-container .why-container {
+    flex: 1;
+    border-radius: 0 0 0.5rem 0;
+  }
+}
