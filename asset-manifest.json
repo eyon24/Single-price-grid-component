@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Single-price-grid-component/static/css/main.137ff774.css",
+    "main.js": "/Single-price-grid-component/static/js/main.2e508d1b.js",
+    "index.html": "/Single-price-grid-component/index.html",
+    "main.137ff774.css.map": "/Single-price-grid-component/static/css/main.137ff774.css.map",
+    "main.2e508d1b.js.map": "/Single-price-grid-component/static/js/main.2e508d1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.137ff774.css",
+    "static/js/main.2e508d1b.js"
+  ]
+}
